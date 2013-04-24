@@ -1,6 +1,8 @@
 # Hello Scaloid for maven
 
-This is a sample project demonstrates [Scaloid library](https://github.com/pocorall/scaloid) for Android development.
+This is a template project to be a starting point of [Scaloid library](https://github.com/pocorall/scaloid) project. 
+
+This contains minimum code as possible; therefore easy to run, examine and extend.
 
 Prerequisites
 -------------
@@ -11,13 +13,13 @@ Build
 -----
 You can build using Maven:
 
-    $ mvn clean install
+    $ mvn clean package
 
 This will compile the project and generate an APK. The generated APK is
 signed with the Android debug certificate. To generate a zip-aligned APK
 that is signed with an actual certificate, use:
 
-    $ mvn clean install -Prelease
+    $ mvn clean package -Prelease
 
 The configuration for which certificate to use is in pom.xml.
 
@@ -33,11 +35,6 @@ You can use Maven to generate project files for Eclipse or IDEA:
 
     $ mvn eclipse:eclipse
     $ mvn idea:idea
-
-Once the project files are generated, your IDE should be able to open
-the project. Depending on your IDE's configuration, it may not be able
-to build the project. You can always build using the Maven command line
-as detailed in this readme.
 
 Origin
 ------
