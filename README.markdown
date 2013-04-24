@@ -36,10 +36,13 @@ You can use Maven to generate project files for Eclipse or IDEA:
     $ mvn eclipse:eclipse
     $ mvn idea:idea
 
+Further Reading
+---------------
+- [Scaloid](https://github.com/pocorall/scaloid)
+- [Scaloid APIdemos](https://github.com/pocorall/scaloid-apidemos)
+- [Android Maven Plugin](http://code.google.com/p/maven-android-plugin/)
+
+
 Origin
 ------
 This project is forked from [android-scala-test](https://github.com/rohansingh/android-scala-test). Thanks [rohansingh](https://github.com/rohansingh)!
-
-Further Reading
----------------
-- [Android Maven Plugin](http://code.google.com/p/maven-android-plugin/)
