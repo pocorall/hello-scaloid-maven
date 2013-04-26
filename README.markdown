@@ -1,6 +1,6 @@
 # Hello Scaloid for maven
 
-This is a template project to be a starting point of [Scaloid](https://github.com/pocorall/scaloid) project. 
+This is a template project that can be a starting point of [Scaloid](https://github.com/pocorall/scaloid) project. 
 
 This contains minimum code as possible; therefore easy to run, examine and extend.
 
