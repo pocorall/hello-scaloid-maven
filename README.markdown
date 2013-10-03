@@ -8,6 +8,7 @@ Prerequisites
 -------------
 * Maven 3
 * Android SDK
+  - Both SDK Level 8 and the most recent version should be installed.
 
 Build
 -----
