@@ -37,6 +37,13 @@ You can use Maven to generate project files for Eclipse or IDEA:
     $ mvn eclipse:eclipse
     $ mvn idea:idea
 
+Troubleshooting
+---------------
+
+#### Error `ANDROID-904-002: Found aidl files: Count = 0`
+The environment variable `ANDROID_HOME` is incorrect.
+
+
 Further Reading
 ---------------
 - [Scaloid](https://github.com/pocorall/scaloid)
