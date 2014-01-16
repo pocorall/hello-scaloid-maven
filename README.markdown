@@ -43,6 +43,11 @@ Troubleshooting
 #### Error `ANDROID-904-002: Found aidl files: Count = 0`
 The environment variable `ANDROID_HOME` is incorrect.
 
+Build time is too slow?
+-----------------------
+This maven project works completely, except one thing that build time usually takes more than 40 seconds.
+We recommend to [build your project with sbt](https://github.com/pocorall/hello-scaloid-sbt), which enables incremental build.
+This usually takes only few seconds.
 
 Further Reading
 ---------------
