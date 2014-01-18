@@ -36,6 +36,9 @@ You can use Maven to generate project files for Eclipse or IDEA:
 
     $ mvn eclipse:eclipse
     $ mvn idea:idea
+    
+We do not recommend to use IDE's own Android build system, because proguard settings are complicated.
+Use Maven to build and deploy the project.
 
 Troubleshooting
 ---------------
