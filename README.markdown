@@ -6,7 +6,7 @@ This contains minimum code as possible; therefore easy to run, examine and exten
 
 Prerequisites
 -------------
-* Maven 3.0.5
+* Maven 3.1 or above
 * Android SDK
   - Both SDK Level 8 and the most recent version should be installed.
 

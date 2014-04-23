@@ -9,7 +9,7 @@
 	<name>Hello Scaloid! for Maven</name>
 
 	<properties>
-		<scala.version>2.10.3</scala.version>
+		<scala.version>2.11.0</scala.version>
 	</properties>
 
 	<dependencies>
@@ -26,8 +26,8 @@
 		</dependency>
 		<dependency>
 			<groupId>org.scaloid</groupId>
-			<artifactId>scaloid_2.10</artifactId>
-			<version>3.1-8-RC1</version>
+			<artifactId>scaloid_2.11</artifactId>
+			<version>3.3-8</version>
 		</dependency>
 	</dependencies>
 
@@ -90,7 +90,7 @@
 			<plugin>
 				<groupId>com.jayway.maven.plugins.android.generation2</groupId>
 				<artifactId>android-maven-plugin</artifactId>
-				<version>3.7.0</version>
+				<version>3.8.2</version>
 				<configuration>
 					<androidManifestFile>${project.basedir}/AndroidManifest.xml</androidManifestFile>
 					<assetsDirectory>${project.basedir}/assets</assetsDirectory>
