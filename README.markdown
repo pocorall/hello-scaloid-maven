@@ -6,7 +6,7 @@ This contains minimum code as possible; therefore easy to run, examine and exten
 
 Prerequisites
 -------------
-* Maven 3.1 or above
+* Maven 3.2 or above
 * Android SDK
   - Both SDK Level 8 and the most recent version should be installed.
 
@@ -26,9 +26,9 @@ The configuration for which certificate to use is in pom.xml.
 
 Run
 ---
-Deploy to an Android virtual device (AVD):
+Deploy to an Android virtual device (AVD) and run:
 
-    $ mvn android:deploy
+    $ mvn android:deploy android:run
 
 Using an IDE
 ------------
