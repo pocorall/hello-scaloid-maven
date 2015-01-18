@@ -48,9 +48,9 @@ The environment variable `ANDROID_HOME` is incorrect.
 
 Is the build too slow?
 ----------------------
-This maven project works completely, except one thing that build time usually takes more than 40 seconds.
+This maven project works completely. But long build time would matter, which usually takes more than 40 seconds.
 We recommend to [build your project with sbt](https://github.com/pocorall/hello-scaloid-sbt), which enables incremental build.
-This usually takes only few seconds.
+This usually takes only several seconds.
 
 Further Reading
 ---------------
