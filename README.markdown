@@ -7,9 +7,9 @@ This contains minimum code as possible; therefore easy to run, examine and exten
 Prerequisites
 -------------
 * Maven 3.2 or above
-* Android SDK
-  - Both SDK Level 10 and the most recent version should be installed.
-
+* Android SDK Level 16 or above
+ - Level 16 is required for building, while this app retains runtime compatibility from API Level 10. Please refer to `minSdkVersion` property in `AndroidManifest.xml`
+ 
 Build
 -----
 You can build using Maven:
@@ -56,7 +56,7 @@ Further Reading
 ---------------
 - [Scaloid](https://github.com/pocorall/scaloid)
 - [Scaloid APIdemos](https://github.com/pocorall/scaloid-apidemos)
-- [Android Maven Plugin](http://code.google.com/p/maven-android-plugin/)
+- [Android Maven Plugin](https://github.com/simpligility/android-maven-plugin)
 
 
 Origin
