@@ -9,7 +9,7 @@
 	<name>Hello Scaloid! for Maven</name>
 
 	<properties>
-		<scala.version>2.11.6</scala.version>
+		<scala.version>2.11.7</scala.version>
 	</properties>
 
 	<dependencies>
@@ -27,7 +27,7 @@
 		<dependency>
 			<groupId>org.scaloid</groupId>
 			<artifactId>scaloid_2.11</artifactId>
-			<version>4.0-RC1</version>
+			<version>4.0</version>
 		</dependency>
 	</dependencies>
 
@@ -90,7 +90,7 @@
 			<plugin>
 				<groupId>com.simpligility.maven.plugins</groupId>
 				<artifactId>android-maven-plugin</artifactId>
-				<version>4.2.0</version>
+				<version>4.3.0</version>
 				    <dependencies>
 					  <dependency>
 						<groupId>net.sf.proguard</groupId>
