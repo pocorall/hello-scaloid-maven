@@ -3,7 +3,7 @@ package org.scaloid.hello
 import org.scaloid.common._
 import android.graphics.Color
 
-class HelloScaloid extends SActivity {
+class HelloScaloidActivity extends SActivity {
   lazy val meToo = new STextView("Me too")
 
   onCreate {
